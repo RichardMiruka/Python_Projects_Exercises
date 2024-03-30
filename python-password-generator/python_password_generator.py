@@ -20,7 +20,7 @@ def generate_password():
   else:
     password = random.choices(character_string,k=length)
     
-  #Since the returned value is a list, we convert to a sting using join
+  #Since the returned value is a list, we convert to a string using join
   password=''.join(password)
   
   #Declare a string variable
